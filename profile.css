@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    overflow: hidden;
+    background-color: #006454;;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    line-height: 25px;
+    font-size: 22px; 
+    text-align: center;
+    color: ivory;
+    padding: 10px;
+    text-decoration: none;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    color: #ffd643;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
